@@ -192,9 +192,9 @@ def run_test_case_6(findAverageColorInRegion):
       b = result["avg_b"]
       print(f"  Your Result: avg_r={r}, avg_g={g}, avg_b={b}")
 
-      r = result["avg_r"]
-      g = result["avg_g"]
-      b = result["avg_b"]
+      r = expected[0]
+      g = expected[1]
+      b = expected[2]
       print(f"  Expected Result: avg_r={r}, avg_g={g}, avg_b={b}")
       return False
     else:
